@@ -1,0 +1,23 @@
+{
+  "name": "z-uni-cli",
+  "version": "1.0.0",
+  "description": "z-uni-cli",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "z-uni-cli": "./index.js"
+  },
+  "keywords": ["uni-app", "wechat", "mini-program"],
+  "author": "michael-Z",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "ora": "^5.1.0"
+  }
+}
